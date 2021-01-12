@@ -1,0 +1,24 @@
+{
+  "name": "lambda-container-node",
+  "version": "1.0.0",
+  "description": "Generate random PDF and return as attachment in http response (aws lambda compatible)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShukujiNeel13/lambda-container-node.git"
+  },
+  "author": "ShukujiNeel13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShukujiNeel13/lambda-container-node/issues"
+  },
+  "homepage": "https://github.com/ShukujiNeel13/lambda-container-node#readme",
+  "dependencies": {
+    "faker": "^5.1.0",
+    "get-stream": "^6.0.0",
+    "pdfkit": "^0.11.0"
+  }
+}
